@@ -1,7 +1,13 @@
+@import "./utils/variables";
+
 .rest-container{
-    background-color: aquamarine;
+    background-color: $color-primary;
         p{
             font-size: large;
             color: aqua
     }
 };
+
+body{
+    background-color: $color-primary;
+}
