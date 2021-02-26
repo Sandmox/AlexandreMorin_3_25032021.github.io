@@ -1,13 +1,21 @@
-.rest-container {
-  background-color: #9356dc;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.rest-container p {
-  font-size: large;
-  color: aqua;
+
+h1 {
+  font-family: "Shrikhand", cursive;
 }
 
 body {
-  background-color: #9356dc;
+  font-family: "Roboto", sans-serif;
+}
+
+#reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=.style.css.map */
