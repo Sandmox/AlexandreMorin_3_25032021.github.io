@@ -49,11 +49,12 @@ h1 {
 }
 
 .rest-container {
-  background-color: yellow;
+  background-color: rgb(23, 31, 139);
 }
 
 #rest-img {
-  
+  background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-size: cover;
 }
 
 header {
