@@ -1,3 +1,32 @@
+#location{
+    display: flex;
+    flex-direction: row;
+    background-color: #EAEAEA;
+    width: 100%;
+    justify-content: center;
+}
+
+#location-logo{
+    padding-top: 16px;
+}
+
 #reservation{
     @include flexstyle;
+    width: 100%;
 }
+
+#reserve{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+#operations{
+    @include flexstyle;
+}
+
+#restaurants{
+    @include flexstyle;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
