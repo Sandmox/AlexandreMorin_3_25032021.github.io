@@ -49,7 +49,7 @@ h1 {
 }
 
 .rest-container {
-  background-color: rgb(41, 182, 76);
+  background-color: #58581b;
 }
 
 #rest-img {
@@ -81,6 +81,7 @@ footer {
 footer h1 {
   margin-bottom: 16px;
   font-size: 1.5rem;
+  border: solid;
 }
 
 .footer-container {
@@ -95,4 +96,4 @@ footer h1 {
   margin: 0px;
 }
 
-/*# sourceMappingURL=.style.css.map */
+/*# sourceMappingURL=style.css.map */
