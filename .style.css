@@ -223,4 +223,12 @@ footer h1 {
   border-top-right-radius: 35px;
 }
 
+.commander p {
+  background-color: #FF79da;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 30px;
+}
+
 /*# sourceMappingURL=.style.css.map */
