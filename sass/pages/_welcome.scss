@@ -23,6 +23,7 @@
     @include flexstyle;
     background-color: #f6f6f6;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 #txt1{
@@ -35,10 +36,15 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 #txt2{
+    text-align: center;
     font-weight: lighter;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    width: 48%;
 }
 
 #txt3{
@@ -51,12 +57,26 @@
 #operations{
     @include flexstyle;
     margin-bottom: 50px;
+    margin-top: 30px;
+    h3{
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
 
 #restaurants{
     @include flexstyle;
     background-color: #f6f6f6;
     width: 100%;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    position: relative;
+    #rest-title{
+        position: absolute;
+        top: 25px;
+        left: 275px;
+        font-size: 1.5rem;
+    }
 }
 
 .rest-container{
