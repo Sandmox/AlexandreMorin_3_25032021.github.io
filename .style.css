@@ -231,4 +231,11 @@ footer h1 {
   border-radius: 30px;
 }
 
+.operations-button {
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  width: 350px;
+  height: 80px;
+}
+
 /*# sourceMappingURL=.style.css.map */
