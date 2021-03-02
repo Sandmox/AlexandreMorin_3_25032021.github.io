@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ---COLORS---*/
 body {
   display: flex;
@@ -38,6 +39,29 @@ h1 {
   align-items: center;
   background-color: #f6f6f6;
   width: 100%;
+}
+
+#txt1 {
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  width: 29%;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+#txt2 {
+  font-weight: lighter;
+}
+
+#txt3 {
+  background-color: #9356dc;
+  color: white;
+  padding: 14px;
+  border-radius: 30px;
 }
 
 #operations {
@@ -132,19 +156,29 @@ footer {
 }
 footer h1 {
   margin-bottom: 16px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .footer-container {
   display: flex;
   flex-direction: row;
+  padding-bottom: 10px;
 }
 .footer-container i {
   margin-top: 2px;
+  padding-right: 10px;
 }
 .footer-container p {
-  font-weight: bold;
   margin: 0px;
+}
+
+.fa-hands-helping:before {
+  content: "";
+  font-size: 0.8rem;
+}
+
+#footer-txt1 {
+  padding-left: 3px;
 }
 
 /*# sourceMappingURL=.style.css.map */
