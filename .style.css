@@ -279,4 +279,39 @@ footer h1 {
   font-size: 1.3rem;
 }
 
+.menus {
+  width: 60%;
+  background-color: #F6F6F6;
+}
+.menus .menus-titre {
+  padding-left: 25px;
+}
+.menus .menus-container {
+  background-color: white;
+  margin: 20px;
+  border-radius: 20px;
+  position: relative;
+  height: 75px;
+}
+.menus .menus-container .menus-nom {
+  margin: 0px;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 18px;
+  top: 11px;
+}
+.menus .menus-container .menus-complement {
+  font-weight: lighter;
+  margin: 0px;
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+}
+.menus .menus-container .menu-prix {
+  margin: 0px;
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+}
+
 /*# sourceMappingURL=.style.css.map */

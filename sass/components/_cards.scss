@@ -1,0 +1,34 @@
+.menus{
+    width: 60%;
+    background-color: #F6F6F6;
+    .menus-titre{
+        padding-left: 25px;
+    }
+    .menus-container{
+        background-color: white;
+        margin: 20px;
+        border-radius: 20px;
+        position: relative;
+        height: 75px;
+        .menus-nom{
+            margin: 0px;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 18px;
+            top: 11px;
+        }
+        .menus-complement{
+            font-weight: lighter;
+            margin: 0px;
+            position: absolute;
+            bottom: 16px;
+            left: 18px;
+        }
+        .menu-prix{
+            margin: 0px;
+            position: absolute;
+            right: 25px;
+            bottom: 15px;
+        }
+    }
+}
