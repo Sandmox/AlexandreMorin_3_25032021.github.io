@@ -103,13 +103,14 @@ h1 {
   background-color: white;
   border-radius: 10px;
   margin-bottom: 15px;
+  width: 80%;
 }
 .rest-container #rest1-img {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-position-y: -41px;
   background-size: cover;
   height: 150px;
-  width: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -119,7 +120,7 @@ h1 {
   background-position-y: -138px;
   background-size: cover;
   height: 150px;
-  width: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -129,7 +130,7 @@ h1 {
   background-position-y: -41px;
   background-size: cover;
   height: 150px;
-  width: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -139,7 +140,7 @@ h1 {
   background-position-y: -41px;
   background-size: cover;
   height: 150px;
-  width: 300px;
+  width: 100%;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
