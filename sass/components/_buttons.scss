@@ -1,13 +1,17 @@
-.commander{
-    p{
+.btn{
         background-color: $color-secondary;
         padding: 15px;
         padding-left: 40px;
         padding-right: 40px;
         border-radius: 30px;
         color: white;
+        font-size: 1rem;
+        border: none;
+            &:hover{
+            background-color: lighten($color: $color-secondary, $amount: 10%);
+        }
     }
-}
+
 
 .operations-button{
     background-color: #F6F6F6;

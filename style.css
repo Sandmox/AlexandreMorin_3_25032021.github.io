@@ -65,15 +65,11 @@ h1 {
 }
 
 #txt3 {
-  background-color: #9356dc;
   color: white;
   padding: 18px;
   border-radius: 30px;
   font-size: 1rem;
   border: none;
-}
-#txt3:hover {
-  background-color: blue;
 }
 
 #operations {
@@ -110,6 +106,7 @@ h1 {
   border-radius: 20px;
   margin-bottom: 15px;
   width: 80%;
+  position: relative;
 }
 .rest-container #rest1-img {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -160,6 +157,12 @@ h1 {
   margin-top: 0px;
   padding-left: 12px;
 }
+.rest-container i {
+  position: absolute;
+  right: 20px;
+  font-size: 2rem;
+  bottom: 20px;
+}
 
 header {
   width: 100%;
@@ -176,6 +179,7 @@ header h1 {
 }
 header i {
   font-size: 1.5rem;
+  color: black;
 }
 
 footer {
@@ -240,9 +244,15 @@ footer h1 {
   background-size: cover;
 }
 .presentation .size-img {
-  height: 280px;
+  height: 350px;
   width: 100%;
   position: relative;
+}
+.presentation .size-img i {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  font-size: 2rem;
 }
 
 .nom-restaurant {
@@ -252,19 +262,26 @@ footer h1 {
   margin: 0px;
   box-sizing: border-box;
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
+  font-size: 2rem;
+  padding-left: 28px;
 }
 
-.commander p {
+.btn {
   background-color: #FF79da;
   padding: 15px;
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 30px;
   color: white;
+  font-size: 1rem;
+  border: none;
+}
+.btn:hover {
+  background-color: #fface8;
 }
 
 .operations-button {

@@ -48,15 +48,11 @@
 }
 
 #txt3{
-    background-color: $color-primary;
     color: white;
     padding: 18px;
     border-radius: 30px;
     font-size: 1rem;
     border: none;
-        &:hover{
-            background-color: blue;
-        }
 }
 
 #operations{
@@ -89,6 +85,7 @@
     border-radius: 20px;
     margin-bottom: 15px;
     width: 80%;
+    position: relative;
     #rest1-img{
         background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
         background-position-y: -41px;
@@ -117,5 +114,11 @@
     p{
         margin-top: 0px;
         padding-left: 12px;
+    }
+    i{
+        position: absolute;
+        right: 20px;
+        font-size: 2rem;
+        bottom: 20px;
     }
 }
