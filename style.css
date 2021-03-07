@@ -282,6 +282,7 @@ footer h1 {
 }
 .btn:hover {
   background-color: #a16be0;
+  box-shadow: 0px 3px 3px 5px #cfcac8;
 }
 
 .operations-button {
@@ -328,6 +329,7 @@ footer h1 {
 }
 .menus .menus-titre {
   padding-left: 25px;
+  font-weight: lighter;
 }
 .menus .menus-container {
   background-color: white;
@@ -357,12 +359,10 @@ footer h1 {
   bottom: 15px;
 }
 
-.fa-heart {
-  color: black;
-}
 .fa-heart:hover {
   color: red;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
