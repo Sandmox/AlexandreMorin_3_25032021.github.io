@@ -1,5 +1,5 @@
 .btn{
-        background-color: $color-secondary;
+        background-color: $color-primary;
         padding: 15px;
         padding-left: 40px;
         padding-right: 40px;
@@ -8,7 +8,7 @@
         font-size: 1rem;
         border: none;
             &:hover{
-            background-color: lighten($color: $color-secondary, $amount: 10%);
+            background-color: lighten($color: $color-primary, $amount: 5%);
         }
     }
 
@@ -39,3 +39,15 @@
         font-size: 1.3rem;
     }
 }
+
+.commander{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+        .btn{
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+}
+

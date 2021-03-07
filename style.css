@@ -271,7 +271,7 @@ footer h1 {
 }
 
 .btn {
-  background-color: #FF79da;
+  background-color: #9356dc;
   padding: 15px;
   padding-left: 40px;
   padding-right: 40px;
@@ -281,7 +281,7 @@ footer h1 {
   border: none;
 }
 .btn:hover {
-  background-color: #fface8;
+  background-color: #a16be0;
 }
 
 .operations-button {
@@ -309,6 +309,17 @@ footer h1 {
   position: absolute;
   left: 48px;
   font-size: 1.3rem;
+}
+
+.commander {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F6;
+}
+.commander .btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .menus {
@@ -344,6 +355,14 @@ footer h1 {
   position: absolute;
   right: 25px;
   bottom: 15px;
+}
+
+.fa-heart {
+  color: black;
+}
+.fa-heart:hover {
+  color: red;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
