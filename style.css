@@ -67,8 +67,13 @@ h1 {
 #txt3 {
   background-color: #9356dc;
   color: white;
-  padding: 14px;
+  padding: 18px;
   border-radius: 30px;
+  font-size: 1rem;
+  border: none;
+}
+#txt3:hover {
+  background-color: blue;
 }
 
 #operations {
@@ -158,11 +163,19 @@ h1 {
 
 header {
   width: 100%;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
 }
 header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+header i {
+  font-size: 1.5rem;
 }
 
 footer {
@@ -316,4 +329,4 @@ footer h1 {
   bottom: 15px;
 }
 
-/*# sourceMappingURL=.style.css.map */
+/*# sourceMappingURL=style.css.map */
