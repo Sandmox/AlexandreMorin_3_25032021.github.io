@@ -364,7 +364,7 @@ footer h1 {
 }
 
 .fa-heart:hover {
-  color: red;
+  color: #9356dc;
   cursor: pointer;
   font-weight: bold;
 }

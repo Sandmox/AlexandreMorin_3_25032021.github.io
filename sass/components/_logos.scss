@@ -1,6 +1,6 @@
 .fa-heart{
     &:hover{
-        color: red;
+        color: $color-primary;
         cursor: pointer;
         font-weight: bold;
     }
