@@ -13,9 +13,10 @@
         height: 75px;
         animation: appear 20s;
         transition-property: transform;
-        transition: all 3s;
+        transition: transform 3s;
         &:hover .fa-check-circle{
             display: flex;
+            opacity: 1;
             color: $color-tertiary;
             transform: rotate(1turn);
         }
@@ -45,9 +46,10 @@
             right: 40px;
             bottom: 22px;
             font-size: 2rem;
-            display: none;
+            display: flex;
             transition-property: transform;
             transition: all 2s;
+            opacity: 0;
         }
     }
 }

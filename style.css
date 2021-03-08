@@ -360,10 +360,11 @@ footer h1 {
   height: 75px;
   animation: appear 20s;
   transition-property: transform;
-  transition: all 3s;
+  transition: transform 3s;
 }
 .menus .menus-container:hover .fa-check-circle {
   display: flex;
+  opacity: 1;
   color: #99E2d0;
   transform: rotate(1turn);
 }
@@ -392,9 +393,10 @@ footer h1 {
   right: 40px;
   bottom: 22px;
   font-size: 2rem;
-  display: none;
+  display: flex;
   transition-property: transform;
   transition: all 2s;
+  opacity: 0;
 }
 
 .fa-heart:hover {
