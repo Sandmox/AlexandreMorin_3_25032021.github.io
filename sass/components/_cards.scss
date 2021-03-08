@@ -11,7 +11,15 @@
         border-radius: 20px;
         position: relative;
         height: 75px;
-        animation: appear 10s;
+        animation: appear 20s;
+        transition-property: transform;
+        transition: all 3s;
+        &:hover .fa-check-circle{
+            display: flex;
+            color: $color-tertiary;
+            transform: rotate(1turn);
+        }
+        
         .menus-nom{
             margin: 0px;
             font-size: 1.2rem;
@@ -37,6 +45,9 @@
             right: 40px;
             bottom: 22px;
             font-size: 2rem;
+            display: none;
+            transition-property: transform;
+            transition: all 2s;
         }
     }
 }
