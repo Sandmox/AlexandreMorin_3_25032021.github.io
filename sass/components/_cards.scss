@@ -12,9 +12,13 @@
         position: relative;
         height: 75px;
         animation: appear 20s;
-        transition-property: transform;
-        transition: transform 3s;
+        transition: transform 400ms;
+        &:hover{
+            transform-origin: left 0%;
+            transform: scaleX(0.8);
+        }
         &:hover .fa-check-circle{
+            transition: transform 800ms, opacity 100ms;
             display: flex;
             opacity: 1;
             color: $color-tertiary;
@@ -43,7 +47,7 @@
         }
         i{
             position: absolute;
-            right: 40px;
+            right: 60px;
             bottom: 22px;
             font-size: 2rem;
             display: flex;

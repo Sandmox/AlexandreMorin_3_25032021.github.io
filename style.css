@@ -24,6 +24,17 @@ body {
     opacity: 100;
   }
 }
+@keyframes heartpaint {
+  0% {
+    color: #F6F6F6;
+  }
+  10% {
+    color: #9356dc;
+  }
+  100% {
+    color: #9356dc;
+  }
+}
 h1 {
   font-family: "Shrikhand", cursive;
 }
@@ -359,10 +370,14 @@ footer h1 {
   position: relative;
   height: 75px;
   animation: appear 20s;
-  transition-property: transform;
-  transition: transform 3s;
+  transition: transform 400ms;
+}
+.menus .menus-container:hover {
+  transform-origin: left 0%;
+  transform: scaleX(0.8);
 }
 .menus .menus-container:hover .fa-check-circle {
+  transition: transform 800ms, opacity 100ms;
   display: flex;
   opacity: 1;
   color: #99E2d0;
@@ -390,7 +405,7 @@ footer h1 {
 }
 .menus .menus-container i {
   position: absolute;
-  right: 40px;
+  right: 60px;
   bottom: 22px;
   font-size: 2rem;
   display: flex;
@@ -400,9 +415,9 @@ footer h1 {
 }
 
 .fa-heart:hover {
-  color: #9356dc;
   cursor: pointer;
   font-weight: bold;
+  animation: heartpaint 15s;
 }
 
 /*# sourceMappingURL=style.css.map */

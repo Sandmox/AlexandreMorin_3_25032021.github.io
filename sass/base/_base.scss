@@ -11,4 +11,10 @@ body{
     100% {opacity: 100;}
 }
 
+@keyframes heartpaint{
+    0% {color: #F6F6F6;}
+    10% {color: $color-primary;}
+    100%{color: $color-primary;}
+}
+
 

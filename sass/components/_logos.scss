@@ -1,7 +1,7 @@
 .fa-heart{
     &:hover{
-        color: $color-primary;
         cursor: pointer;
         font-weight: bold;
+        animation: heartpaint 15s;
     }
 }
