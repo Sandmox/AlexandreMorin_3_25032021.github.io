@@ -7,6 +7,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50;
+  }
+  100% {
+    opacity: 100;
+  }
+}
 h1 {
   font-family: "Shrikhand", cursive;
 }
@@ -341,6 +352,7 @@ footer h1 {
   border-radius: 20px;
   position: relative;
   height: 75px;
+  animation: appear 10s;
 }
 .menus .menus-container .menus-nom {
   margin: 0px;
@@ -361,6 +373,12 @@ footer h1 {
   position: absolute;
   right: 25px;
   bottom: 15px;
+}
+.menus .menus-container i {
+  position: absolute;
+  right: 40px;
+  bottom: 22px;
+  font-size: 2rem;
 }
 
 .fa-heart:hover {
