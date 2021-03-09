@@ -279,7 +279,7 @@ footer h1 {
 }
 
 .presentation {
-  width: 60%;
+  width: 100%;
 }
 .presentation #img-restaurant1 {
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -371,7 +371,7 @@ footer h1 {
 }
 
 .commander {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #F6F6F6;
@@ -382,7 +382,7 @@ footer h1 {
 }
 
 .menus {
-  width: 60%;
+  width: 100%;
   background-color: #F6F6F6;
 }
 .menus .menus-titre {
