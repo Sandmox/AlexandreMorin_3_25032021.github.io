@@ -127,3 +127,22 @@
     }
     
 }
+
+.loader{
+    width: 100px;
+    height: 100px;
+    background-color: $color-secondary;
+    border: solid 10px $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 66px;
+    .loader-center{
+        background-color: $color-tertiary;
+        width: 50px;
+        height: 50px;
+        animation: load 5s;   
+        border-radius: 10px; 
+    }
+
+}
