@@ -372,9 +372,14 @@ footer h1 {
   animation: appear 20s;
   transition: transform 400ms;
 }
-.menus .menus-container:hover {
-  transform-origin: left 0%;
-  transform: scaleX(0.8);
+.menus .menus-container:hover .green {
+  background-color: green;
+  width: 20%;
+  height: 100%;
+  transform-origin: right 0%;
+  float: right;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .menus .menus-container:hover .fa-check-circle {
   transition: transform 800ms, opacity 100ms;
