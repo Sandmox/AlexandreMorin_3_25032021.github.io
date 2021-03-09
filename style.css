@@ -352,6 +352,7 @@ footer h1 {
 .btn:hover {
   background-color: #a16be0;
   box-shadow: 0px 3px 3px 5px #cfcac8;
+  cursor: pointer;
 }
 
 .operations-button {
@@ -369,6 +370,7 @@ footer h1 {
 .operations-button:hover {
   background-color: white;
   box-shadow: 0px 3px 3px 5px #cfcac8;
+  cursor: pointer;
 }
 .operations-button .button-number {
   background-color: #9356dc;
