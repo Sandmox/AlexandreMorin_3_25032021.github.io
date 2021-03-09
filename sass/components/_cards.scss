@@ -11,7 +11,7 @@
         border-radius: 20px;
         position: relative;
         height: 75px;
-        animation: appear 20s;
+        //animation: appear 20s;//
         transition: transform 400ms;
         &:hover .green{
             background-color: green;
@@ -64,3 +64,14 @@
     }
 }
 
+#entrees{
+    animation: appear 5s;
+}
+
+#plats{
+    animation: appear 10s;
+}
+
+#desserts{
+    animation: appear 15s;
+}

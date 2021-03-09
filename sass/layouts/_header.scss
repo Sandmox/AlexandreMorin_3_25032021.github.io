@@ -5,11 +5,15 @@ header{
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    position: relative;
         h1{
             @include flexstyle;
         }
         i{
             font-size: 1.5rem;
             color: black;
+            position: absolute;
+            left: 40px;
+            top: 32px;
         }
 }

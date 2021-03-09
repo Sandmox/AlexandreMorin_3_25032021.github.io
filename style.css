@@ -236,6 +236,7 @@ header {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+  position: relative;
 }
 header h1 {
   display: flex;
@@ -245,6 +246,9 @@ header h1 {
 header i {
   font-size: 1.5rem;
   color: black;
+  position: absolute;
+  left: 40px;
+  top: 32px;
 }
 
 footer {
@@ -323,7 +327,7 @@ footer h1 {
 .nom-restaurant {
   background-color: #F6F6F6;
   position: absolute;
-  bottom: 0px;
+  bottom: -2px;
   margin: 0px;
   box-sizing: border-box;
   width: 100%;
@@ -361,6 +365,10 @@ footer h1 {
   align-items: center;
   margin-bottom: 20px;
   position: relative;
+}
+.operations-button:hover {
+  background-color: white;
+  box-shadow: 0px 3px 3px 5px #cfcac8;
 }
 .operations-button .button-number {
   background-color: #9356dc;
@@ -402,7 +410,6 @@ footer h1 {
   border-radius: 20px;
   position: relative;
   height: 75px;
-  animation: appear 20s;
   transition: transform 400ms;
 }
 .menus .menus-container:hover .green {
@@ -450,6 +457,18 @@ footer h1 {
   transition-property: transform;
   transition: all 2s;
   opacity: 0;
+}
+
+#entrees {
+  animation: appear 5s;
+}
+
+#plats {
+  animation: appear 10s;
+}
+
+#desserts {
+  animation: appear 15s;
 }
 
 .fa-heart:hover {
