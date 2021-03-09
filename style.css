@@ -218,8 +218,15 @@ h1 {
   background-color: #99E2d0;
   width: 50px;
   height: 50px;
-  animation: load 5s linear;
+  animation: load 3s linear;
   border-radius: 10px;
+}
+.loader .loader-center i {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 8px;
+  color: #9356dc;
 }
 
 header {
