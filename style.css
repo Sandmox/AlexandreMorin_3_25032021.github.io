@@ -401,13 +401,16 @@ footer h1 {
   border-radius: 20px;
   position: relative;
   height: 75px;
+  display: flex;
+  overflow: hidden;
   transition: transform 400ms;
 }
 .menus .menus-container:hover .fa-check-circle {
-  transition: transform 800ms, opacity 100ms;
+  transition: transform 1000ms, opacity 100ms;
+  transition-delay: 0.2s;
   display: flex;
   opacity: 1;
-  color: #99E2d0;
+  color: white;
   transform: rotate(1turn);
 }
 .menus .menus-container .menus-nom {
@@ -460,6 +463,23 @@ footer h1 {
   animation-delay: 1.5s;
   opacity: 0;
   top: 30px;
+}
+
+.white {
+  height: 100%;
+  width: 100%;
+}
+
+.green {
+  background-color: #99E2d0;
+  height: 100%;
+  width: 20%;
+  transform: translateX(100%);
+}
+
+.white:hover + .green {
+  transform: translateX(0);
+  transition: linear 0.8s;
 }
 
 .fa-heart:hover {
