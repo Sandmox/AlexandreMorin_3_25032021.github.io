@@ -8,20 +8,9 @@ body {
 }
 
 @keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 25;
-  }
-  50% {
-    opacity: 50;
-  }
-  75% {
-    opacity: 75;
-  }
   100% {
-    opacity: 100;
+    opacity: 100%;
+    top: 0;
   }
 }
 @keyframes heartpaint {
@@ -414,15 +403,6 @@ footer h1 {
   height: 75px;
   transition: transform 400ms;
 }
-.menus .menus-container:hover .green {
-  background-color: green;
-  width: 20%;
-  height: 100%;
-  transform-origin: right 0%;
-  float: right;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-}
 .menus .menus-container:hover .fa-check-circle {
   transition: transform 800ms, opacity 100ms;
   display: flex;
@@ -462,15 +442,24 @@ footer h1 {
 }
 
 #entrees {
-  animation: appear 5s;
+  animation: appear 2s forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  top: 30px;
 }
 
 #plats {
-  animation: appear 10s;
+  animation: appear 2s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  top: 30px;
 }
 
 #desserts {
-  animation: appear 15s;
+  animation: appear 2s forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+  top: 30px;
 }
 
 .fa-heart:hover {

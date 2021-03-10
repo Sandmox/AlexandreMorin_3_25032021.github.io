@@ -13,15 +13,7 @@
         height: 75px;
         //animation: appear 20s;//
         transition: transform 400ms;
-        &:hover .green{
-            background-color: green;
-            width: 20%;
-            height: 100%;
-            transform-origin: right 0%;
-            float: right;
-            border-bottom-right-radius: 15px;
-            border-top-right-radius: 15px;
-        }
+        
 
         &:hover .fa-check-circle{
             transition: transform 800ms, opacity 100ms;
@@ -65,13 +57,22 @@
 }
 
 #entrees{
-    animation: appear 5s;
+    animation: appear 2s forwards;
+    animation-delay: .5s;
+    opacity: 0;
+    top: 30px;
 }
 
 #plats{
-    animation: appear 10s;
+    animation: appear 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    top: 30px;
 }
 
 #desserts{
-    animation: appear 15s;
+    animation: appear 2s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    top: 30px;
 }
