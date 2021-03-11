@@ -409,7 +409,7 @@ footer h1 {
 }
 .menus .menus-container:hover .fa-check-circle {
   transition: transform 1000ms, opacity 100ms;
-  transition-delay: 0.2s;
+  transition-delay: 0.1s;
   display: flex;
   opacity: 1;
   color: white;
