@@ -41,12 +41,14 @@
         }
         .menu-prix{
             margin: 0px;
-            position: absolute;
-            right: 25px;
-            bottom: 15px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            justify-content: flex-end;
+            padding-right: 30px;
         }
         i{
-            position: absolute;
             right: 60px;
             bottom: 22px;
             font-size: 2rem;
@@ -54,6 +56,8 @@
             transition-property: transform;
             transition: all 2s;
             opacity: 0;
+            align-items: center;
+            margin-left: 20px;
         }
     }
 }
@@ -82,17 +86,19 @@
 .white{
     height: 100%;
     width: 100%;
-
+    display: flex;
 }
 
 .green{
 background-color: $color-tertiary;
 height: 100%;
 width: 20%;
-transform: translateX(100%);
+margin-right: -191px;
+display: flex;
 }
 
 .white:hover + .green{
-    transform: translateX(0);
+    
     transition: linear .8s;
+    margin-right: 0px;
 } 
