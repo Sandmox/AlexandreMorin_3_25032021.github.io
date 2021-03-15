@@ -138,6 +138,7 @@ h1 {
   text-decoration: none;
 }
 .rest-container a #rest1-img {
+  position: relative;
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   background-position-y: -41px;
   background-size: cover;
@@ -147,7 +148,19 @@ h1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+.rest-container a #rest1-img .button-new {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  background-color: #99E2d0;
+  color: green;
+  padding: 12px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .rest-container a #rest2-img {
+  position: relative;
   background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   background-position-y: -138px;
   background-size: cover;
@@ -156,6 +169,17 @@ h1 {
   background-repeat: no-repeat;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+.rest-container a #rest2-img .button-new {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  background-color: #99E2d0;
+  color: green;
+  padding: 12px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .rest-container a #rest3-img {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
