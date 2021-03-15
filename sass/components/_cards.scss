@@ -2,8 +2,11 @@
     width: 100%;
     background-color: #F6F6F6;
     .menus-titre{
-        padding-left: 25px;
+        padding-bottom: 7px;
         font-weight: lighter;
+        width: 45px;
+        margin-left: 22px;
+        border-bottom: solid 4px #99E2D0;
     }
     .menus-container{
         background-color: white;
@@ -13,7 +16,6 @@
         height: 75px;
         display: flex;
         overflow: hidden;
-        //animation: appear 20s;//
         transition: transform 400ms;
 
         &:hover .fa-check-circle{

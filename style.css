@@ -398,8 +398,11 @@ footer h1 {
   background-color: #F6F6F6;
 }
 .menus .menus-titre {
-  padding-left: 25px;
+  padding-bottom: 7px;
   font-weight: lighter;
+  width: 45px;
+  margin-left: 22px;
+  border-bottom: solid 4px #99E2D0;
 }
 .menus .menus-container {
   background-color: white;
