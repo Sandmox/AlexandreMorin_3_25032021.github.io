@@ -140,7 +140,6 @@ h1 {
 .rest-container a #rest1-img {
   position: relative;
   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-  background-position-y: -41px;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -183,7 +182,6 @@ h1 {
 }
 .rest-container a #rest3-img {
   background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-  background-position-y: -41px;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -193,7 +191,6 @@ h1 {
 }
 .rest-container a #rest4-img {
   background-image: url(images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-  background-position-y: -41px;
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -449,16 +446,17 @@ footer h1 {
 .menus .menus-container .menus-nom {
   margin: 0px;
   font-size: 1.2rem;
-  position: absolute;
-  left: 18px;
-  top: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 4px;
 }
 .menus .menus-container .menus-complement {
   font-weight: lighter;
   margin: 0px;
-  position: absolute;
-  bottom: 16px;
-  left: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menus .menus-container .menu-prix {
   margin: 0px;
@@ -506,6 +504,19 @@ footer h1 {
 .white {
   height: 100%;
   width: 100%;
+  display: flex;
+}
+.white .white-left {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.white .white-right {
+  height: 100%;
+  width: 70%;
   display: flex;
 }
 
