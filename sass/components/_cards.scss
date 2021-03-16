@@ -51,6 +51,7 @@
             width: 100%;
             justify-content: flex-end;
             padding-right: 30px;
+            padding-top: 25px;
         }
         i{
             right: 60px;
@@ -94,7 +95,7 @@
     display: flex;
     .white-left{
         height: 100%;
-        width: 30%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -102,7 +103,7 @@
     }
     .white-right{
         height: 100%;
-        width: 70%;
+        width: 50%;
         display: flex;
     }
 }
@@ -116,7 +117,6 @@ display: flex;
 }
 
 .white:hover + .green{
-    
     transition: linear .8s;
     margin-right: 0px;
 } 
