@@ -16,11 +16,9 @@
         height: 75px;
         display: flex;
         overflow: hidden;
-        transition: transform 400ms;
 
         &:hover .fa-check-circle{
-            transition: transform 1000ms, opacity 100ms;
-            transition-delay: .1s;
+            transition: transform .8s;
             display: flex;
             opacity: 1;
             color: white;
@@ -113,12 +111,12 @@
 .green{
 background-color: $color-tertiary;
 height: 100%;
-width: 20%;
-margin-right: -245px;
+width: 200px;
+margin-right: -200px;
 display: flex;
 }
 
 .menus-container:hover .green{
-    transition: ease-in .8s;
+    transition: all .4s ease-in;
     margin-right: 0px;
 } 

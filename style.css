@@ -460,11 +460,9 @@ footer h1 {
   height: 75px;
   display: flex;
   overflow: hidden;
-  transition: transform 400ms;
 }
 .menus .menus-container:hover .fa-check-circle {
-  transition: transform 1000ms, opacity 100ms;
-  transition-delay: 0.1s;
+  transition: transform 0.8s;
   display: flex;
   opacity: 1;
   color: white;
@@ -553,13 +551,13 @@ footer h1 {
 .green {
   background-color: #99E2d0;
   height: 100%;
-  width: 20%;
-  margin-right: -245px;
+  width: 200px;
+  margin-right: -200px;
   display: flex;
 }
 
 .menus-container:hover .green {
-  transition: ease-in 0.8s;
+  transition: all 0.4s ease-in;
   margin-right: 0px;
 }
 
