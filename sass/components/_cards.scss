@@ -59,8 +59,9 @@
             font-size: 2rem;
             display: flex;
             transition-property: transform;
-            transition: all 2s;
-            opacity: 0;
+            transition: all .5s;
+            opacity: 1;
+            color: white;
             align-items: center;
             justify-content: center;
             width: 100%;
@@ -117,7 +118,7 @@ margin-right: -245px;
 display: flex;
 }
 
-.white:hover + .green{
-    transition: linear .8s;
+.menus-container:hover .green{
+    transition: ease-in .8s;
     margin-right: 0px;
 } 
