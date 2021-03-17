@@ -536,15 +536,16 @@ footer h1 {
 }
 .white .white-left {
   height: 100%;
-  width: 50%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 20px;
+  overflow: hidden;
 }
 .white .white-right {
   height: 100%;
-  width: 50%;
+  width: 20%;
   display: flex;
 }
 
