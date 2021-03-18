@@ -1,0 +1,20 @@
+.anim-appear-entrees{
+    animation: appear 2s forwards;
+    animation-delay: .5s;
+    opacity: 0;
+    top: 30px;
+}
+
+.anim-appear-plats{
+    animation: appear 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    top: 30px;
+}
+
+.anim-appear-desserts{
+    animation: appear 2s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    top: 30px;
+}

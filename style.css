@@ -1,5 +1,26 @@
 @charset "UTF-8";
 /* ---COLORS---*/
+.anim-appear-entrees, #entrees4, #entrees3, #entrees2, #entrees1 {
+  animation: appear 2s forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  top: 30px;
+}
+
+.anim-appear-plats, #plats3, #plats2, #plats1 {
+  animation: appear 2s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  top: 30px;
+}
+
+.anim-appear-desserts, #desserts3, #desserts2, #desserts1 {
+  animation: appear 2s forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+  top: 30px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -505,27 +526,6 @@ footer h1 {
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-
-#entrees {
-  animation: appear 2s forwards;
-  animation-delay: 0.5s;
-  opacity: 0;
-  top: 30px;
-}
-
-#plats {
-  animation: appear 2s forwards;
-  animation-delay: 1s;
-  opacity: 0;
-  top: 30px;
-}
-
-#desserts {
-  animation: appear 2s forwards;
-  animation-delay: 1.5s;
-  opacity: 0;
-  top: 30px;
 }
 
 .white {

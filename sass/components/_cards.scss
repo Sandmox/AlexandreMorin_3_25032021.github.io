@@ -67,25 +67,44 @@
     }
 }
 
-#entrees{
-    animation: appear 2s forwards;
-    animation-delay: .5s;
-    opacity: 0;
-    top: 30px;
+#entrees1{
+    @extend .anim-appear-entrees;
 }
 
-#plats{
-    animation: appear 2s forwards;
-    animation-delay: 1s;
-    opacity: 0;
-    top: 30px;
+#entrees2{
+    @extend .anim-appear-entrees;
 }
 
-#desserts{
-    animation: appear 2s forwards;
-    animation-delay: 1.5s;
-    opacity: 0;
-    top: 30px;
+#entrees3{
+    @extend .anim-appear-entrees;
+}
+
+#entrees4{
+    @extend .anim-appear-entrees;
+}
+
+#plats1{
+    @extend .anim-appear-plats;
+}
+
+#plats2{
+    @extend .anim-appear-plats;
+}
+
+#plats3{
+    @extend .anim-appear-plats;
+}
+
+#desserts1{
+    @extend .anim-appear-desserts;
+}
+
+#desserts2{
+    @extend .anim-appear-desserts;
+}
+
+#desserts3{
+    @extend .anim-appear-desserts;
 }
 
 .white{
