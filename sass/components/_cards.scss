@@ -133,6 +133,7 @@ height: 100%;
 width: 200px;
 margin-right: -200px;
 display: flex;
+transition: all .4s ease-in;
 }
 
 .menus-container:hover .green{
