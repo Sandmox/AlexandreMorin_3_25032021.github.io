@@ -2,21 +2,21 @@
 /* ---COLORS---*/
 .anim-appear-entrees, #entrees4, #entrees3, #entrees2, #entrees1 {
   animation: appear 2s forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
   opacity: 0;
   top: 30px;
 }
 
 .anim-appear-plats, #plats3, #plats2, #plats1 {
   animation: appear 2s forwards;
-  animation-delay: 1s;
+  animation-delay: 0.7s;
   opacity: 0;
   top: 30px;
 }
 
 .anim-appear-desserts, #desserts3, #desserts2, #desserts1 {
   animation: appear 2s forwards;
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
   opacity: 0;
   top: 30px;
 }
@@ -536,6 +536,7 @@ footer h1 {
 .white {
   height: 100%;
   width: 100%;
+  min-width: 25%;
   display: flex;
 }
 .white .white-left {
