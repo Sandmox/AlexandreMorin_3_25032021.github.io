@@ -151,9 +151,20 @@
     
 }
 
+#loader-spinner{
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    animation: hide 2s;
+    animation-fill-mode: forwards;
+}
+
 .loader-wrapper{
     position: relative;
-    animation: load 3s;
+    display: flex;
+    justify-content: center;
+    animation: hide-loader-wrapper 2s;
+    animation-fill-mode: forwards;
     .fa-utensils{
         color: grey;
         position: absolute;
@@ -170,11 +181,14 @@
         justify-content: center;
         align-items: center;
         border-radius: 66px;
+        position: absolute;
+        top: 200px;
         .loader-center{
             background-color: $color-tertiary;
             width: 50px;
             height: 50px;
-            animation: load 3s linear;   
+            animation: load 3s linear; 
+            animation-fill-mode: forwards;  
             border-radius: 10px; 
             i{
                 display: flex;
