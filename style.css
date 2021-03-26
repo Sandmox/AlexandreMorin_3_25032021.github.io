@@ -84,6 +84,10 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
+h2 {
+  font-family: "Shrikhand", cursive;
+}
+
 #location {
   display: flex;
   flex-direction: row;
