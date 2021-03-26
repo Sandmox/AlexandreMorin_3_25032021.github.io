@@ -155,7 +155,7 @@
     width: 100%;
     height: 2000px;
     background-color: white;
-    animation: hide 2s;
+    animation: hide 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -163,7 +163,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    animation: hide-loader-wrapper 2s;
+    animation: hide-loader-wrapper 1.5s;
     animation-fill-mode: forwards;
     .fa-utensils{
         color: grey;
